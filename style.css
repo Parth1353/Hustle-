@@ -140,11 +140,11 @@ body {
 /* Main part of page */
 
 #main {
-  background-image: url("./img/bg-img.jpg");
+  background-image: url("./img/lady2.jpeg");
   background-size: cover;
   height: 90vh;
   width: 100%;
-  background-position: top 25% right 0;
+  background-position: top 2% right 0;
   padding: 0 80px;
   display: flex;
   align-items: flex-start;
