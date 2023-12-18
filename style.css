@@ -483,6 +483,7 @@ body {
 footer {
   display: flex;
   flex-wrap: wrap;
+  background-color: #3498db;
   justify-content: space-between;
 }
 
