@@ -1279,3 +1279,8 @@ footer .copyright {
   animation: translateYAnimation 1s infinite ease-in-out;
 }
 
+.sortOrder
+{
+  align-items: right !important;
+  text-align: right!important;
+}
