@@ -187,11 +187,15 @@ body {
   border: 1px solid #cce7d0;
   border-radius: 4px;
   margin: 15px 0;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 #feature .fe-box:hover {
+  transform: scale(1.2);
   box-shadow: 10px 10px 74px rgba(100, 45, 211, 0.1);
 }
+
+
 
 #feature .fe-box img {
   width: 100%;
@@ -1256,3 +1260,22 @@ footer .copyright {
 {
   width: 50px;
 }
+@keyframes translateYAnimation {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-5px);
+  }
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #3498db;
+  color: #ffffff;
+  text-decoration: none;
+  border-radius: 4px;
+  animation: translateYAnimation 1s infinite ease-in-out;
+}
+
