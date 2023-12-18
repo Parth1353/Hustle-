@@ -173,7 +173,7 @@ body {
     font-size: 13px;
   }
   .btn {
-    margin-bottom: 13rem;
+    margin-bottom: 3rem;
     font-size: 12px !important;
   }
 }
@@ -574,7 +574,12 @@ footer .copyright {
 /* Shop Page */
 
 
-
+@media (max-width: 320px) {
+  #feature{
+    margin-left: 4rem;
+  }
+  
+}
 
 @media (max-width:820px) {
   .section-p1 {
